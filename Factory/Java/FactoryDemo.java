@@ -1,4 +1,4 @@
-package Java.Factory;
+package Factory.Java;
 
 public class FactoryDemo {
     public static void main(String[] args) {

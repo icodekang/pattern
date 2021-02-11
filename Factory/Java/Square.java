@@ -1,4 +1,4 @@
-package Java.Factory;
+package Factory.Java;
 
 public class Square implements Shape
 {
