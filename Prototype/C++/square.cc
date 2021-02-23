@@ -5,7 +5,7 @@ Square::Square() {
 }
 
 Shape *Square::clone() {
-    return new Square();
+    return new Square(*this);
 }
 
 void Square::draw() {

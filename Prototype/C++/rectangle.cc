@@ -5,7 +5,7 @@ Rectangle::Rectangle() {
 }
 
 Shape *Rectangle::clone() {
-    return new Rectangle();
+    return new Rectangle(*this);
 }
 
 void Rectangle::draw() {

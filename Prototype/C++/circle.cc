@@ -5,7 +5,7 @@ Circle::Circle() {
 }
 
 Shape *Circle::clone() {
-    return new Circle();
+    return new Circle(*this);
 }
 
 void Circle::draw() {
