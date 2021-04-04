@@ -1,4 +1,4 @@
-package Conmand.Java;
+package Command.Java;
 
 public class Stock 
 {
